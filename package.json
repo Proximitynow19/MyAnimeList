@@ -1,0 +1,21 @@
+{
+  "name": "myanimelist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/deploy-commands.js && node .",
+    "dev": "ts-node src/deploy-commands.ts && ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.27.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "typescript": "^4.6.4"
+  }
+}
